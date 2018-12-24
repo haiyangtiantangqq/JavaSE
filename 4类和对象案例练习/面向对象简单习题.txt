@@ -1,0 +1,464 @@
+第一题--
+在猫类中：属性：毛色 品种  年龄 方法：键盘输入猫的所有信息并且打印显示猫的所有信息：毛色为xx 品种为XX
+年龄为XX
+import java.util.Scanner;
+
+public class Cat {
+ String color;
+ int age;
+ String type;
+ public void showCat(){
+  Scanner in=new Scanner(System.in);
+  System.out.println("输入猫的所有信息并且打印显示猫的所有信息：" +	"毛色,品种,年龄");
+ color=in.next();
+ type=in.next();	
+ age=in.nextInt();
+System.out.println("毛色:"+color+",品种:"+type+",年龄:"+age);}}
+package 对象;
+
+public class TestClass {
+	public static void main(String[] args) {	
+	Cat cat=new Cat(); cat.showCat();}
+在狗类中：属性：名字 体重  年龄 方法：键盘输入狗的所有信息，并根据的狗的体重判断是否该减肥
+package 对象;
+
+import java.util.Scanner;
+
+public class Dog {
+int age;
+tring name;
+double weight;
+
+public void showDog() {
+Scanner in = new Scanner(System.in);
+System.out.println("输入猫的所有信息:名字,体重,年龄");
+name = in.next();
+weight = in.nextDouble();
+age = in.nextInt();
+if (weight > 30) {
+  System.out.println("名为" + name + "的大胖,你的体重是:" + weight + ",在你这个"+ age + "岁的年纪，体重超标！该减肥啦！");	}
+else{System.out.println("honey,棒棒哒！");}}}
+
+在打架类中：方法：得到一只猫和一条狗，并且赋值(无需键盘输入),通过他们的年龄比较，年龄大的一个打架胜利
+ public static void fight(){
+Cat c=new Cat();
+Dog d=new Dog();
+c.age=12;
+d.age=8;
+if(c.age>d.age){ System.out.println("猫赢了"); }
+else{System.out.println("狗赢了");}}
+
+第二题--
+在学生类中有姓名，年龄、学号、学分的属性。
+在查看类中有以下方法：
+方法1：键盘输入并且显示学生信息：姓名为XX的学生，学号为XX，年龄为XX岁,学分为xx分.
+方法2：得到2个学生，并且赋值(无需键盘输入),然后比较谁的学分高，打印出学分高的学生信息
+方法3：得到3个学生，并且赋值(无需键盘输入),然后依次放入一个学生数组，并且遍历数组打印学生信息
+
+package com.model;
+
+public class Student {
+   public String name;
+   public int age;
+   public String nun;
+   public double grade;
+}
+
+package com.operate;
+
+import com.model.Student;
+
+public class StudentOperate {
+Student st[] = new Student[3];
+
+public void inti() {
+st[0] = new Student();
+st[0].name = "张三";
+st[0].grade = 66;
+st[0].nun = "001";
+st[0].age = 22;
+
+st[1] = new Student();
+st[1].name = "李四";
+st[1].grade = 69;
+st[1].nun = "002";
+st[1].age = 20;
+
+st[2] = new Student();
+st[2].name = "王老五";
+st[2].grade = 96;
+st[2].nun = "003";
+st[2].age = 21;	}
+
+public void topgrade() {
+   double maxgrade = st[0].grade;
+   for (int i = 0; i < st.length; i++) {
+	if (maxgrade < st[i].grade) {maxgrade = st[i].grade;}}
+   for (int i = 0; i < st.length; i++) {
+	if (st[i].grade == maxgrade) {
+	   System.out.println("学生姓名\t学生成绩\t学号\t年龄");
+	   System.out.println(st[i].name + "\t" + st[i].grade + "\t"
+		+ st[i].nun + "\t" + st[i].age);break;}}}
+
+public void show() {
+System.out.println("学生姓名\t学生成绩\t学号\t年龄");
+for (int i = 0; i < st.length; i++) {
+	System.out.println(st[i].name + "\t" + st[i].grade + "\t"
+		+ st[i].nun + "\t" + st[i].age);}}
+
+public static void main(String[] args) {
+  StudentOperate stt = new StudentOperate();
+  stt.inti();
+  stt.show();
+  stt.topgrade();}}
+
+
+
+1:main 输入2个数 传入计算类通过方法
+(1) 可以算出2个数之和，差，积，商
+(2) 输入科目总数，然后输入每科成绩，最后算出平均分
+import com.model.Compute;
+
+public class ComputeOperate {
+  public static void main(String[] args) {
+    Compute c = new Compute();
+    c.getcompute();
+    c.avg();}}
+
+
+package com.model;
+
+import java.util.Scanner;
+
+public class Compute {
+  public double nun1;
+  public double nun2;
+  public int mark;
+  Scanner in = new Scanner(System.in);
+
+  public double getcompute() {//public double getcompute(
+    double result = 0;      //double nun1,double nnun2,int mark)
+    String answer = " ";
+	do {
+	 System.out.println("请输入两个数");
+	 nun1 = in.nextDouble();
+	 nun2 = in.nextDouble();
+	 System.out.println("请输入要计算的类型：和（1）/差（2）/乘（3）/除（4）");
+	 mark = in.nextInt();
+	 switch (mark) {
+	     case 1:
+		System.out.println("和为" + (nun2 + nun1));
+		result = nun2 + nun1;
+		break;
+	     case 2:
+		System.out.println("差为" + (nun2 - nun1));
+		result = nun2 - nun1;
+		break;
+	     case 3:
+		System.out.println("乘积为" + (nun2 * nun1));
+		result = nun2 * nun1;
+		break;
+	     case 4:
+		if (nun1 == 0) {System.out.println("商数不能为零");}
+	        System.out.println("商为" + (nun2 / nun1));
+		result = nun2 / nun1;
+		break;
+	     default:System.out.println("输入有误！");}
+	     System.out.println("是否继续运算：y");
+	     answer = in.next();
+	} while (answer.equals("y"));
+	return result;
+    }
+
+	public double avg() {
+
+		double sum = 0;
+		System.out.println("输入科目总数");
+		int count = in.nextInt();
+		if (count > 0) {
+			System.out.println("平均分为" + sum / count);
+		} else {
+			System.out.println("输入有误，科目总数不能为零");
+		}
+		System.out.println("输入每科成绩");
+		double a[] = new double[count];
+		for (int i = 0; i < count; i++) {
+			a[i] = in.nextDouble();
+			sum += a[i];
+		}
+		return sum / count;
+	}}
+
+2：学生类属性：姓名，年龄，分数，学生操作类的方法
+(1) 初始化3个学生，并放进数组中    
+(2) 遍历数组
+(3) 通过键盘输入添加学生
+(4) 通过输入学生姓名查找学生,显示该学生的信息 (用数组)
+public class Stu {
+String name;int age;double grade;}
+
+public class TestClass {
+	public static void main(String[] args) {
+	TestClass t = new TestClass();
+	t.inti();t.show();
+	t.addStu();t.search();	}
+
+	Scanner in = new Scanner(System.in);
+	Stu st[] = new Stu[3];
+	public void inti() {
+		st[0] = new Stu();
+		st[0].name = "张三";
+		st[0].grade = 66;
+		st[0].age = 22;
+
+		st[1] = new Stu();
+		st[1].name = "李四";
+		st[1].grade = 69;
+		st[1].age = 20;
+
+		st[2] = new Stu();
+		st[2].name = "王老五";
+		st[2].grade = 96;
+		st[2].age = 21;	}
+
+	public void show() {
+	 System.out.println("姓名\t年龄\t成绩 ");
+	 for (int i = 0; i < st.length; i++) {
+	 System.out.println(st[i].name + "\t" + st[i].age + "\t"+ st[i].grade);}}
+
+	Stu stt[] = new Stu[st.length + 1];
+Stu stt[] = new Stu[st.length + 1];
+
+	public void addStu() {
+		System.out.println("请输入添加的学生信息：姓名");
+		stt[stt.length - 1] = new Stu();
+		while (true) {
+			boolean b = false;
+			String a = in.next();
+			for (int i = 0; i < stt.length - 1; i++) {
+			  if (a.equals(st[i].name)) {
+				 System.out.println("名字已存在，请重新输入！");
+				    b = false;
+				    break;
+			  } else {
+				  b = true;}}
+			if (b) {
+			  System.arraycopy(st, 0, stt, 0, st.length);
+			  stt[stt.length - 1].name = a;
+			  System.out.println("请输入添加的学生信息：年龄，分数");
+			  stt[stt.length - 1].age = in.nextInt();
+			  stt[stt.length - 1].grade = in.nextDouble();		
+                          System.out.println("添加成功");
+				break;}}}
+	
+	public void search() {
+		System.out.println("请输入要查询的学生姓名");
+		String name1 = in.next();
+		for (int i = 0; i < stt.length; i++) {
+		 if (name1.equals(stt[i].name)) {
+		   System.out.println("姓名：" + stt[i].name + "，年龄：" + stt[i].age	+ "，成绩" + stt[i].grade);break;}}}}
+
+3：main 输入3只兔子姓名，速度，在比赛类中有方法
+(1) 根据速度比谁的速度最快
+(2) 根据速度由慢至快排序(用数组)
+public class TestClass {
+ public static void main(String[] args) {
+RabbitRace ra=new RabbitRace();	ra.Race();}}
+
+package 对象;
+
+import java.util.Scanner;
+
+public class RabbitRace {
+	String name;
+	double speed;
+
+	RabbitRace rab[] = new RabbitRace[3];
+	Scanner in = new Scanner(System.in);
+
+	public void Race() {
+		System.out.println("输入3只兔子姓名，速度");
+		for (int i = 0; i < rab.length; i++) {
+			rab[i] = new RabbitRace();
+			rab[i].name = in.next();
+			rab[i].speed = in.nextDouble();
+		}
+		double maxSpeed = rab[0].speed;
+		for (int i = 0; i < rab.length; i++) {
+			if (maxSpeed < rab[i].speed) {
+				maxSpeed = rab[i].speed;}}
+		for (int i = 0; i < rab.length; i++) {
+		if (maxSpeed == rab[i].speed) {
+		System.out.println(rab[i].name + "的速度最快，速度为"+rab[i].speed);
+				break;}}
+		for (int i = 0; i < rab.length; i++) {
+			for (int j = 0; j < rab.length - 1 - i; j++) {
+				if (rab[j].speed > rab[j + 1].speed) {
+					double p = rab[j].speed;
+					rab[j].speed = rab[j + 1].speed;
+					rab[j + 1].speed = p;}}	}
+		System.out.println("速度由慢至快排序");
+		for (int i = 0; i < rab.length; i++) {			
+		 System.out.println("姓名：" + rab[i].name + ",速度：" + rab[i].speed);}}}
+
+
+4：猫狗大战：猫类：属性：HP atk  ；狗类：属性：HP atk  打架类：
+方法1：猫狗依次对打，HP的剩余值=HP的原本值-对方的ATK ，直到其中一方HP<=0，判断输赢；
+方法2：随机回合  直到其中一方HP<=0，判断输赢；抽取号
+public class Cat {	
+	public int HP;
+	public int atk;}
+public class Dog {	
+	public int HP;
+	public int atk;}
+
+package com.operate;
+
+import java.util.Scanner;
+
+import com.model.Cat;
+import com.model.Dog;
+
+public class Dog_CatfightOperate {
+   public static void main(String[] args) {
+	Dog_CatfightOperate dcf = new Dog_CatfightOperate();
+	dcf.fight();}
+
+   Scanner in = new Scanner(System.in);
+
+   public void fight() {
+	Cat c = new Cat();
+	Dog d = new Dog();
+	System.out.println("请输入猫的HP和atk值");
+	c.atk = in.nextInt();
+	c.HP = in.nextInt();
+	System.out.println("请输入狗的HP和atk值");
+	d.atk = in.nextInt();
+	d.HP = in.nextInt();
+	if (c.HP < d.atk || d.HP < c.atk) {
+		System.out.println("输入有误！");}
+	for (int i = 0;; i++) {
+	  c.HP = c.HP - d.atk;
+	  d.HP = d.HP - c.atk;
+	  if (c.HP <= 0) {
+		System.out.println("狗赢了");break;}
+	  if (d.HP <= 0) {
+		System.out.println("猫赢了");break;}}}}
+
+
+5：客户类：属性有客户id(五位数不同随机数),客户姓名，客户积分
+   客户操作类： 
+   方法1：初始化3个客户并放入客户数组
+   方法2：按照客户积分从高到低排序展示客户信息
+   方法3：输入客户id然后修改客户名字（id不可改）
+
+package 对象;
+
+import java.util.Scanner;
+
+public class TestClass {
+	public static void main(String[] args) {
+		Customer dd=new Customer();
+		dd.inti();
+                dd.show()
+		dd.change();}}
+
+package 对象;
+
+import java.util.Scanner;
+
+public class Customer {
+	String id;// 客户id
+	String name;// 姓名
+	int score;// 积分
+	Scanner in = new Scanner(System.in);
+	GetRandom g = new GetRandom();
+	Customer c[];
+	Customer cc;
+
+	public void getCustomer() {// 获取客户数组
+		c = new Customer[3];
+		int a[] = g.getNum(99999, 10000, 3);
+		c[0] = new Customer();
+		c[0].name = "毛毛";
+		c[0].id = Integer.toString(a[0]);
+		c[0].score = 345;
+
+		c[1] = new Customer();
+		c[1].name = "沫沫";
+		c[1].id = Integer.toString(a[1]);
+		c[1].score = 544;
+
+		c[2] = new Customer();
+		c[2].name = "秀秀";
+		c[2].id = Integer.toString(a[2]);
+		c[2].score = 455;
+	}
+
+	public void show() {
+		for (int i = 0; i < c.length - 1; i++) {
+			for (int j = 0; j < c.length - 1 - i; j++) {
+				if (c[j].score < c[j + 1].score) {
+					Customer p = c[j];
+					c[j] = c[j + 1];
+					c[j + 1] = p;
+				}
+			}
+		}
+		System.out.println("客户信息按积分排序如下：");
+		for (int i = 0; i < c.length; i++) {
+		 System.out.println(c[i].id + " " + c[i].name + " " + c[i].score);
+		}
+	}
+
+	public void show2() {//显示修改后的客户信息
+	 System.out.println("客户信息修改后如下：");
+	 System.out.println("客户编号" + cc1.id + ",客户姓名" + cc1.name +",客户积分"+ cc1.score);
+	}
+        Customer cc1 = null;
+	public void change() {// 修改用户信息
+		System.out.println("请输入你要改客户的ID:");		
+		while (true) {// whlie循环输入
+			boolean boo = false;
+			String id = in.next();
+			for (int i = 0; i < c.length; i++) {
+			        if (id.equals(c[i].id)) {
+					boo = false;
+					cc1 = c[i];//保存修改的客户
+					break;
+				} else {
+					boo = true;
+				}
+			}
+			if (boo == false) {// 判断两次输入的新名字是否一致
+				boolean isb = true;
+				while (isb) {
+					System.out.println("请输入客户新姓名：");
+					String name1 = in.next();
+					System.out.println("请再次输入客户新姓名：");
+					String name2 = in.next();
+					System.out.println("请输入客户新积分：");
+					int sr=in.nextInt();
+					if (name1.equals(name2)) {
+						cc1.name=name1;
+						cc1.score=sr;
+						System.out.println("修改成功");
+						isb = false;
+						break;
+					} else {
+						isb = true;
+						System.out.println("两次输入不一致，请重新输入：");
+					}
+				}
+				if (!isb) {// 跳出整个while循环
+					break;
+				}
+		      } else{
+		         System.out.println("您输入的ID不存在，请重新输入！");
+		      }	
+		}
+	}
+}
+
+
+
