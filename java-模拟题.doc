@@ -1,0 +1,2830 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List href="java-模拟题.files/filelist.xml">
+<title>Mock Test</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>A150610e</o:Author>
+  <o:LastAuthor>admin</o:LastAuthor>
+  <o:Revision>12</o:Revision>
+  <o:TotalTime>118</o:TotalTime>
+  <o:Created>2016-05-13T06:25:00Z</o:Created>
+  <o:LastSaved>2017-03-08T05:18:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>1839</o:Words>
+  <o:Characters>10487</o:Characters>
+  <o:Lines>87</o:Lines>
+  <o:Paragraphs>24</o:Paragraphs>
+  <o:CharactersWithSpaces>12302</o:CharactersWithSpaces>
+  <o:Version>15.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="java-模拟题.files/themedata.thmx">
+<link rel=colorSchemeMapping href="java-模拟题.files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>ZH-CN</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="371">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ZH-CN style='tab-interval:21.0pt'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+style='font-size:15.0pt'>Mock Test<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>1. </span>考虑以下语句：<span lang=EN-US><br>
+</span>语句<span lang=EN-US> 1</span>：常规内部类可访问外部类的<span lang=EN-US> private </span>成员。<span
+lang=EN-US><br>
+</span>语句<span lang=EN-US> 2</span>：要创建常规内部类对象，需要外部类引用。<span lang=EN-US><br>
+</span>确定上述语句正确还是错误。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US style='background:yellow;mso-highlight:
+yellow'>A. </span><span style='background:yellow;mso-highlight:yellow'>两个语句均正确。</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>B. </span>两个语句均错误。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. </span>语句<span lang=EN-US> 1 </span>正确，语句<span
+lang=EN-US> 2 </span>错误。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>D. </span>语句<span lang=EN-US> 1 </span>错误，语句<span
+lang=EN-US> 2 </span>正确。</p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>2.</span>预测以下代码段的输出：<span lang=EN-US><br>
+import <span class=SpellE>java.util.regex.Matcher</span>;<br>
+import <span class=SpellE>java.util.regex.Pattern</span>;<br>
+public class <span class=SpellE>RegexTest</span> <br>
+{<br>
+&nbsp;&nbsp;&nbsp; public static void main(String[] <span class=SpellE>args</span>)
+<br>
+&nbsp;&nbsp;&nbsp; {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pattern <span class=SpellE>myPattern</span>
+= <span class=SpellE>Pattern.compile</span>(&quot;<span class=SpellE>sam</span>++&quot;);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Matcher <span class=SpellE>myMatcher</span>
+= <span class=SpellE>myPattern.matcher</span>(&quot;<span class=SpellE>sam</span>&quot;);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class=SpellE>boolean</span> <span
+class=SpellE>myBoolean</span> = <span class=SpellE>myMatcher.matches</span>();<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class=SpellE>System.out.println</span>(<span
+class=SpellE>myBoolean</span>);<br>
+&nbsp;&nbsp;&nbsp; }<br>
+}</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US style='background:yellow;mso-highlight:
+yellow'>A. </span><span style='background:yellow;mso-highlight:yellow'>该段代码将生成以下输出：<span
+lang=EN-US>true</span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>B. </span>代码将生成编译时错误。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. </span>该段代码将生成以下输出：<span lang=EN-US>false</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>D. </span>代码将生成运行时错误。</p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>3.</span>考虑使用<span lang=EN-US> Locale </span>对象更改当前语言环境的以下代码段：<span
+lang=EN-US><br>
+Locale <span class=SpellE>frLocale</span>=<span class=SpellE>Locale.FRANCE</span>;<br>
+<span style='background:yellow;mso-highlight:yellow'>Locale <span class=SpellE>ruLocale</span>=new
+Locale(&quot;<span class=SpellE>ru</span>&quot;,RU);</span><br>
+Locale <span class=SpellE>currentLocale</span>;<br>
+<span class=SpellE>frLocale</span>=<span class=SpellE>ruLocale</span>;<br>
+<span class=SpellE>currentLocale</span>=<span class=SpellE>frLocale</span>;<br>
+<span class=SpellE>System.out.println</span>(<span class=SpellE>currentLocale</span>);<br>
+</span>执行上述代码段时的输出是什么？</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>A. </span>该段代码将生成以下输出：<span lang=EN-US><br>
+<span class=SpellE>fr_FR</span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US style='background:yellow;mso-highlight:
+yellow'>B. </span><span style='background:yellow;mso-highlight:yellow'>代码将生成编译时错误。</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. </span>该段代码将生成以下输出：<span lang=EN-US><br>
+<span class=SpellE>ru_RU</span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>D. </span>代码将生成运行时异常。</p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>4.</span>以下哪个通配符用于指定类型可以是任何类，只要是指定类的基类？</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US>A. ?</span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US>B. ?</span></span><span
+lang=EN-US> <span class=GramE>extends</span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US>C. ?</span></span><span
+lang=EN-US> <span class=GramE>implements</span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US style='background:yellow;
+mso-highlight:yellow'>D. ?</span></span><span lang=EN-US style='background:
+yellow;mso-highlight:yellow'> <span class=GramE>super</span></span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>5.</span>以下哪个接口提供<span lang=EN-US> <span
+class=SpellE>compareTo</span>() </span>方法？</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US style='background:yellow;mso-highlight:
+yellow'>A. Comparable</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>B. Iterator</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. Comparator</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>D. <span class=SpellE>ListIterator</span></span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US style='background:aqua;mso-highlight:aqua'>6.</span><span
+style='background:aqua;mso-highlight:aqua'>识别正确语句。</span><span lang=EN-US><br>
+Statement1</span>：<span class=SpellE><span lang=EN-US>PriorityBlockingQueue</span></span><span
+lang=EN-US> </span>是一个阻塞队列，它根据优先级对元素排序。<span lang=EN-US><br>
+Statement2</span>：<span class=SpellE><span lang=EN-US>PriorityBlockingQueue</span></span><span
+lang=EN-US> </span>是一个阻塞队列，它阻止将数据添加到队列的请求，直到收到了从队列检索数据的请求，反之亦然。<span
+lang=EN-US><br>
+<span style='background:yellow;mso-highlight:yellow'>Statement3</span></span><span
+style='background:yellow;mso-highlight:yellow'>：<span class=SpellE><span
+lang=EN-US>PriorityBlockingQueue</span></span><span lang=EN-US> </span>是基于优先级的队列，它是基于链接的节点的。</span><span
+lang=EN-US><br>
+Statement4</span>：<span class=SpellE><span lang=EN-US>PriorityBlockingQueue</span></span><span
+lang=EN-US> </span>是基于优先级的队列，其中可以指定要存储在列表中的元素的最大容量。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>A. Statement1</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>B. Statement1 </span>和<span lang=EN-US>
+Statement2</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. Statement3</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>D. Statement4</span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>7.</span>关于<span lang=EN-US> <span
+class=SpellE>FileVisitor</span> </span>接口，以下哪个语句是正确的？</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>A. </span>提供<span lang=EN-US> <span
+class=SpellE><span class=GramE>walkFileTree</span></span><span class=GramE>(</span>)
+</span>方法以遍历文件树来执行递归操作。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>B. </span>提供<span lang=EN-US> <span
+class=SpellE><span class=GramE>visitFile</span></span><span class=GramE>(</span>)
+</span>方法，将针对无法访问的文件调用该方法。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C<span style='background:yellow;mso-highlight:
+yellow'>. </span></span><span style='background:yellow;mso-highlight:yellow'>提供<span
+lang=EN-US> <span class=SpellE><span class=GramE>postVisitDirectory</span></span><span
+class=GramE>(</span>) </span>方法，将在访问了目录的所有条目及其子级后调用该方法。</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>D. </span>提供<span lang=EN-US> <span
+class=SpellE><span class=GramE>preVisitDirectory</span></span><span
+class=GramE>(</span>) </span>方法，将在访问了目录中的所有条目后对目录调用该方法。</p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>8.</span>预测以下代码的输出：<span lang=EN-US><br>
+class InnerClass2 <br>
+{<br>
+private <span class=SpellE>int</span> x = 7;<br>
+public void <span class=SpellE>makeInner</span>() <br>
+{<br>
+<span class=SpellE>MyInner</span> in = new <span class=SpellE>MyInner</span>();<br>
+<span class=SpellE>in.seeOuter</span>();<br>
+}<br>
+class <span class=SpellE>MyInner</span> <br>
+{<br>
+public void <span class=SpellE>seeOuter</span>() <br>
+{<br>
+<span class=SpellE>int</span> x=8;<br>
+<span class=SpellE>System.out.println</span>(&quot;Inner x is &quot; + x);<br>
+<span class=SpellE>System.out.println</span>(&quot;Outer class x &quot; + <span
+class=SpellE>this.x</span>);<br>
+}<br>
+}<br>
+public static void main (String[] <span class=SpellE>args</span>) <br>
+{<br>
+InnerClass2.MyInner inner = new InnerClass2().new <span class=SpellE>MyInner</span>();<br>
+<span class=SpellE>inner.seeOuter</span>();<br>
+}<br>
+<span style='background:yellow;mso-highlight:yellow'>}<o:p></o:p></span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US style='background:yellow;mso-highlight:
+yellow'>A. </span><span style='background:yellow;mso-highlight:yellow'>它将生成编译时错误。</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>B. </span>它会生成运行时错误。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. Inner x is 8<br>
+Outer class x 7</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>D. Inner x is 7<br>
+Outer class x 8</span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>9.</span>资源束包含可在<span lang=EN-US>
+_______________ </span>文件中找到的键<span lang=EN-US>/</span>值对。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US style='background:yellow;mso-highlight:
+yellow'>A. .properties</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>B. .java</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. .txt</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>D. .bundle</span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>10.</span>以下<span class=GramE>哪个类使您</span>能够创建可在两端执行插入或删除的对象集合？</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>A. <span class=SpellE>TreeMap</span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>B. <span class=SpellE>HashSet</span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. <span class=SpellE>Hashtable</span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US style='background:yellow;mso-highlight:
+yellow'>D. <span class=SpellE>ArrayDeque</span></span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>11.</span><span class=GramE>请确定</span>不属于<span
+lang=EN-US> <span class=SpellE>FileVisitor</span> </span>接口的方法。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>A. <span class=SpellE><span class=GramE>preVisitDirectory</span></span><span
+class=GramE>()</span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>B. <span class=SpellE><span class=GramE>postVisitDirectory</span></span><span
+class=GramE>()</span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. <span class=SpellE><span class=GramE>visitFile</span></span><span
+class=GramE>()</span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US style='background:yellow;mso-highlight:
+yellow'>D. <span class=SpellE><span class=GramE>walkFileTree</span></span><span
+class=GramE>()</span></span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>12.</span>您正在处理一个<span lang=EN-US> Java </span>类，该类使用<span
+lang=EN-US> Java NIO </span>来处理文件和目录。在该类的其中一个方法中，<span class=GramE>您创建</span>了以下代码段：<span
+lang=EN-US><br>
+try{<br>
+<span class=SpellE>Files.createDirectories</span>(<span class=SpellE>Paths.get</span>(&quot;C:/Temp/App.txt&quot;));<br>
+}<br>
+catch (<span class=SpellE>IOException</span> e){<br>
+<span class=SpellE>System.out.println</span>(&quot;<span class=SpellE>IOException</span>
+caught&quot;);<br>
+}<br>
+</span>假设<span lang=EN-US> C:/Temp </span>目录不存在，那么以下哪个选项正确指定了执行上述代码段后的输出？</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>A. </span>该代码段不会编译。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US style='background:yellow;mso-highlight:
+yellow'>B. </span><span style='background:yellow;mso-highlight:yellow'>该代码段将创建<span
+lang=EN-US> C:/Temp/App.txt </span>目录结构。</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. </span>该代码段将创建<span lang=EN-US> C:/Temp </span>目录结构并在其中创建<span
+lang=EN-US> App.txt </span>文件。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>D. </span>该段代码将抛出类型为<span lang=EN-US> <span
+class=SpellE>IOException</span> </span>的异常。</p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>13.</span><span class=GramE>请确定</span>代码是否能成功执行。如果不能，请指出将生成错误的行。<span
+lang=EN-US><br>
+import <span class=SpellE>java.sql</span>.*;<br>
+public class Demo{<br>
+public static void main(String <span class=SpellE>args</span>[]){<br>
+String <span class=SpellE>url</span>=&quot;<span class=SpellE>jdbc:sqlserver</span>://localhost;
+<span class=SpellE>databaseName</span>=<span class=SpellE>Library;user</span>=<span
+class=SpellE>sa;password</span>=password@123&quot;; // Line 1<br>
+String query=&quot;SELECT * FROM authors&quot; ; // Line 2<br>
+try(Connection con=<span class=SpellE>DriverManager.getConnection</span>(<span
+class=SpellE>url</span>);<br>
+Statement <span class=SpellE>stmt</span>=<span class=SpellE>con.createStatement</span>();<br>
+<span class=SpellE>ResultSet</span> <span class=SpellE>rs</span>=<span
+class=SpellE>stmt.executeQuery</span>(query)){<br>
+<span class=SpellE>int</span> <span class=SpellE>numCols</span>=<span
+class=SpellE>rs.getMetaData</span>().<span class=SpellE>getColumnCount</span>();
+// Line 3<br>
+<span class=SpellE>System.out.println</span>(<span class=SpellE>numCols</span>);<br>
+String[] <span class=SpellE>colNames</span>=new String[<span class=SpellE>numCols</span>];
+// Line 4<br>
+for (<span class=SpellE>int</span> <span class=SpellE>i</span>=0;i&lt;<span
+class=SpellE>numCols</span>; <span class=SpellE>i</span>++){<br>
+<span class=SpellE>colNames</span>[<span class=SpellE>i</span>]=<span
+class=SpellE>rs.getMetaData</span>().<span class=SpellE>getColumnName</span>(i+1);
+// Line 5<br>
+<span class=SpellE>System.out.println</span>(<span class=SpellE>jumbledWords</span>[<span
+class=SpellE>i</span>]);<br>
+}<br>
+}<br>
+catch(<span class=SpellE>SQLException</span> <span class=SpellE>sqlException</span>)<br>
+{<br>
+<span class=SpellE>sqlException.printStackTrace</span>();<br>
+}<br>
+}<br>
+}</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US style='background:yellow;mso-highlight:
+yellow'>A. </span><span style='background:yellow;mso-highlight:yellow'>该代码将成功执行。</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>B. </span>代码不会成功执行。将在行<span lang=EN-US> 1 </span>和行<span
+lang=EN-US> 2 </span>产生编译错误。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. </span>代码不会成功执行。将在行<span lang=EN-US> 3 </span>和行<span
+lang=EN-US> 4 </span>产生编译错误。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>D. </span>代码不会成功执行。将在行<span lang=EN-US> 3</span>、行<span
+lang=EN-US> 4 </span>和行<span lang=EN-US> 5 </span>产生编译错误。</p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>14.</span>预测以下代码的输出：<span lang=EN-US><br>
+class InnerClass2 <br>
+{<br>
+&nbsp;&nbsp;&nbsp;&nbsp; <span class=SpellE>int</span> x = 30;<br>
+&nbsp;&nbsp;&nbsp; void display() <br>
+&nbsp;&nbsp;&nbsp; {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; final <span class=SpellE>int</span>
+y = 50;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; class Local <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; void <span
+class=SpellE>msg</span>() <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+{&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span class=SpellE>int</span> x=25;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span class=SpellE>System.out.println</span>(&quot;Value of x is:&quot;+ x);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span class=SpellE>System.out.println</span>(&quot;Value of y is:&quot;+y);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Local l = new Local();<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; l.msg();<br>
+&nbsp;&nbsp;&nbsp; }<br>
+&nbsp;&nbsp;&nbsp; public static void main(String <span class=SpellE>args</span>[])
+<br>
+&nbsp;&nbsp;&nbsp; {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; InnerClass2 <span class=SpellE>obj</span>
+= new InnerClass2();<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class=SpellE>obj.display</span>();<br>
+&nbsp;&nbsp;&nbsp; }<br>
+}</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>A. </span>它将生成编译时错误。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>B. </span>它会生成运行时错误。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US style='background:yellow;mso-highlight:
+yellow'>C. Value of x is<span class=GramE>:25</span><br>
+Value of y is:50</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>D. Value of x is<span class=GramE>:30</span><br>
+Value of y is:50</span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>15.</span>预测以下代码段的输出：<span lang=EN-US><br>
+import <span class=SpellE>java.util.regex.Matcher</span>;<br>
+import <span class=SpellE>java.util.regex.Pattern</span>;<br>
+public class <span class=SpellE>RegexTest</span><br>
+{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+public static void main(String <span class=SpellE>args</span>[]) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pattern p = <span
+class=SpellE>Pattern.compile</span>(&quot;a*b&quot;);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Matcher m = <span
+class=SpellE>p.matcher</span>(&quot;b&quot;);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span
+class=SpellE>boolean</span> b = <span class=SpellE>m.matches</span>();<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span
+class=SpellE>System.out.println</span>(b);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br>
+}</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US style='background:yellow;mso-highlight:
+yellow'>A. </span><span style='background:yellow;mso-highlight:yellow'>该段代码将生成以下输出：<span
+lang=EN-US>true</span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>B. </span>上述代码会生成编译错误。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. </span>该段代码将生成以下输出：<span lang=EN-US>false</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>D. </span>上述代码会生成运行时错误。</p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>16.</span>以下哪个代码<span class=GramE>段正确</span>演示了<span
+lang=EN-US> diamond </span>运算符的用法？</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>A. Color&lt;&gt; <span class=SpellE>obj</span>
+= new Color &lt;Integer<span class=GramE>&gt;(</span>);</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>B. Color&lt;Integer&gt; <span class=SpellE>obj</span>
+= new Color &lt;Integer<span class=GramE>&gt;(</span>);</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. <span style='background:yellow;
+mso-highlight:yellow'>Color&lt;Integer&gt; <span class=SpellE>obj</span> = new
+Color &lt;<span class=GramE>&gt;(</span>);</span>// </span>如果编译器能够根据上下文猜出类型参数，就可以写钻石运算符</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>D. Color&lt;&gt; <span class=SpellE>obj</span>
+= new Color &lt;<span class=GramE>&gt;(</span>);</span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>17.</span>请思考以下<span lang=EN-US> Student </span>类的代码：<span
+lang=EN-US><br>
+<span class=GramE>import</span> <span class=SpellE>java.util</span>.*;<br>
+public class Student<br>
+{<br>
+&nbsp;&nbsp;&nbsp; private String name;<br>
+&nbsp;&nbsp;&nbsp; private <span class=SpellE>int</span> marks;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; public Student(String nm, <span class=SpellE>int</span> <span
+class=SpellE>mk</span>)<br>
+&nbsp;&nbsp;&nbsp; {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.name = nm;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class=SpellE>this.marks</span>
+= <span class=SpellE>mk</span>;<br>
+&nbsp;&nbsp;&nbsp; }<br>
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; public <span class=SpellE>int</span> <span class=SpellE>getMarks</span>()<br>
+&nbsp;&nbsp;&nbsp; {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return marks;<br>
+&nbsp;&nbsp;&nbsp; }<br>
+&nbsp;&nbsp;&nbsp; public String <span class=SpellE>getName</span>() {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return name;<br>
+&nbsp;&nbsp;&nbsp; }</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;&nbsp;&nbsp; public void <span
+class=SpellE>setName</span>(String name) {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.name = name;<br>
+&nbsp;&nbsp;&nbsp; }<br>
+public String <span class=SpellE>toString</span>() <br>
+&nbsp;&nbsp;&nbsp; {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class=SpellE>StringBuffer</span>
+buffer = new <span class=SpellE>StringBuffer</span>();<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class=SpellE>buffer.append</span>(name);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return <span class=SpellE>buffer.toString</span>();<br>
+&nbsp;&nbsp;&nbsp; }<br>
+}<br>
+</span>此外，在<span lang=EN-US> Test </span>类的主要方法内部编写时还使用了以下代码：<span lang=EN-US><br>
+<span class=SpellE>ArrayList</span> al=new <span class=SpellE>ArrayList</span>();<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class=SpellE>al.add</span>(new
+Student(&quot;Mark&quot;,89));<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class=SpellE>al.add</span>(new
+Student(&quot;Clark&quot;,90));<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class=SpellE>Collections.sort</span>(al);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class=SpellE>System.out.println</span>(al);<br>
+</span>但是，在执行<span lang=EN-US> Test </span>类时，抛出异常。<span class=GramE>请确定</span>使上述代码成功执行的解决方案。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>A. </span>语句<span lang=EN-US> public class
+Student </span>应替换为语句<span lang=EN-US> public class Student implements<span
+style='color:red'> Comparator, Comparable</span></span><span style='color:red'>。</span>此外，还应在<span
+lang=EN-US> Student </span>类中添加以下代码：<span lang=EN-US><br>
+<span class=GramE>public</span> <span class=SpellE>int</span> <span
+class=SpellE>compareTo</span>(Object <span class=SpellE>obj</span>)<br>
+&nbsp;&nbsp;&nbsp; {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Student s = (Student) <span
+class=SpellE>obj</span>;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return <span class=SpellE>this.getName</span>().<span
+class=SpellE>compareTo</span>(<span class=SpellE>s.getName</span>());<br>
+&nbsp;&nbsp;&nbsp; }</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US style='background:yellow;mso-highlight:
+yellow'>B. </span><span style='background:yellow;mso-highlight:yellow'>语句<span
+lang=EN-US> public class Student </span>应替换为语句<span lang=EN-US> public class
+Student implements Comparable</span>。此外，还应在<span lang=EN-US> Student </span>类中添加以下代码：<span
+lang=EN-US><br>
+public <span class=SpellE>int</span> </span>····················<span
+lang=EN-US>(Object <span class=SpellE>obj</span>)<br>
+&nbsp;&nbsp;&nbsp; {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Student s = (Student) <span
+class=SpellE>obj</span>;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return <span class=SpellE>this.getName</span>().<span
+class=SpellE>compareTo</span>(<span class=SpellE>s.getName</span>());<br>
+&nbsp;&nbsp;&nbsp; }</span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. </span>语句<span lang=EN-US> public class
+Student </span>应替换为语句<span lang=EN-US> public class Student implements
+Comparable</span>。此外，还应在<span lang=EN-US> Student </span>类中添加以下代码：<span
+lang=EN-US><br>
+<span class=GramE>public</span> <span class=SpellE>int</span> <span
+style='color:red'>compare(</span>Object <span class=SpellE>obj</span>)<br>
+&nbsp;&nbsp;&nbsp; {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Student s = (Student) <span
+class=SpellE>obj</span>;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return <span class=SpellE>this.getName</span>().<span
+class=SpellE>compareTo</span>(<span class=SpellE>s.getName</span>());<br>
+&nbsp;&nbsp;&nbsp; }</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>D. </span>语句<span lang=EN-US> public class
+Student </span>应替换为语句<span lang=EN-US> public class Student implements <span
+style='color:red'>Comparator</span></span>。此外，还应在<span lang=EN-US> Student </span>类中添加以下代码：<span
+lang=EN-US><br>
+<span class=GramE>public</span> <span class=SpellE>int</span> <span
+class=SpellE><span style='color:red'>compareTo</span></span>(Object <span
+class=SpellE>obj</span>)<br>
+&nbsp;&nbsp;&nbsp; {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Student s = (Student) <span
+class=SpellE>obj</span>;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return <span class=SpellE>this.getName</span>().<span
+class=SpellE>compareTo</span>(<span class=SpellE>s.getName</span>());<br>
+&nbsp;&nbsp;&nbsp; }</span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US style='background:aqua;mso-highlight:aqua'>18.</span><span
+style='background:aqua;mso-highlight:aqua'>当要执行的读取数大于要执行的更新数时，以下哪个类提供线程安全操作？</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>A. <span class=SpellE>CopyOnWriteArraySet</span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>B. <span class=SpellE>ConcurrentLinkedQueue</span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. <span class=SpellE>ConcurrentSkipListSet</span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>D. <span class=SpellE>ConcurrentHashMap</span></span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>19.</span>请思考<span lang=EN-US> Java </span>类的以下代码段，它扩展<span
+lang=EN-US> Thread </span>类以在新线程中执行<span lang=EN-US> for </span>循环：</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US>public</span></span><span
+lang=EN-US> class <span class=SpellE>SampleThread</span> extends Thread {<br>
+public void run() {<br>
+for (<span class=SpellE>int</span> I = 0; I &lt; 100; <span class=SpellE>i</span>++)
+{<br>
+<span class=SpellE>System.out.println</span>(&quot;<span class=SpellE>i</span>=
+&quot; + <span class=SpellE>i</span>);<br>
+}<br>
+}<br>
+}</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal>您将使用以下哪个代码段为上述代码<span class=GramE>段创建</span>并启动新线程？</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US style='background:yellow;mso-highlight:
+yellow'>A. public static void <span class=GramE>main(</span>String[] <span
+class=SpellE>args</span>) {<br>
+<span class=SpellE><i style='mso-bidi-font-style:normal'>SampleThread</i></span><i
+style='mso-bidi-font-style:normal'> <span class=SpellE>sThread</span>=new <span
+class=SpellE>SampleThread</span>();<br>
+<span class=SpellE>sThread.start</span>();<br>
+}</i></span><i style='mso-bidi-font-style:normal'><span lang=EN-US><o:p></o:p></span></i></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>B. public static void <span class=GramE>main(</span>String[]
+<span class=SpellE>args</span>) {<br>
+Thread <span class=SpellE>sThread</span>=new Thread();<br>
+<span class=SpellE>sThread.start</span>();<br>
+}</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. public static void <span class=GramE>main(</span>String[]
+<span class=SpellE>args</span>) {<br>
+<span class=SpellE>SampleThread</span> <span class=SpellE>sThread</span>=new <span
+class=SpellE>SampleThread</span>();<br>
+<span class=SpellE>sThread.run</span>();<br>
+}</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>D. public static void <span class=GramE>main(</span>String[]
+<span class=SpellE>args</span>) {<br>
+Thread <span class=SpellE>sThread</span>=new Thread();<br>
+<span class=SpellE>sThread.run</span>();<br>
+}</span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>20.Java </span>支持以下哪种类型的流？</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>A. Byte </span>和<span lang=EN-US> numeric</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>B. String </span>和<span lang=EN-US>
+character</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US style='background:yellow;mso-highlight:
+yellow'>C. Character </span><span style='background:yellow;mso-highlight:yellow'>和<span
+lang=EN-US> byte</span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>D. Character </span>和<span lang=EN-US> numeric</span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>21.</span>在<span lang=EN-US> Java </span>程序中，您需要提示用户输入用户名，并在退出程序前显示欢迎消息。因此您已创建一个<span
+lang=EN-US> Main </span>类。在<span lang=EN-US> Main </span>类的<span lang=EN-US>
+main() </span>方法中，您将使用以下哪个代码段提示并接受来自控制台的用户名，显示欢迎消息，然后退出程序？</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>A. try (<span class=SpellE>BufferedReader</span>
+in = new <span class=SpellE>BufferedReader</span>(new <span class=SpellE>InputStreamReader</span>()))
+{<br>
+String s = &quot;&quot;;<br>
+while (s != null) {<br>
+<span class=SpellE>System.out.println</span>(&quot;Enter your name&quot;);<br>
+s = <span class=SpellE>in.readLine</span>();<br>
+<span class=SpellE>System.out.println</span>(&quot;Hello &quot; + s);<br>
+<span class=SpellE>System.exit</span>(0);<br>
+} <br>
+} catch (<span class=SpellE>IOException</span> ex) {<br>
+<span class=SpellE>ex.printStackTrace</span>();<br>
+}</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US style='background:yellow;mso-highlight:
+yellow'>B. try (<span class=SpellE>BufferedReader</span> in = new <span
+class=SpellE>BufferedReader</span>(new <span class=SpellE>InputStreamReader</span>(System.in)))
+{<br>
+String s = &quot;&quot;;<br>
+while (s != null) {<br>
+<span class=SpellE>System.out.println</span>(&quot;Enter your name&quot;);<br>
+s = <span class=SpellE>in.readLine</span>();<br>
+<span class=SpellE>System.out.println</span>(&quot;Hello &quot; + s);<br>
+<span class=SpellE>System.exit</span>(0);<br>
+}<br>
+} catch (<span class=SpellE>IOException</span> ex) {<br>
+<span class=SpellE>ex.printStackTrace</span>();<br>
+}</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. try (<span class=SpellE>BufferedReader</span>
+in = new <span class=SpellE>InputStreamReader</span>(new <span class=SpellE>BufferedReader</span>
+(System.in))) {<br>
+String s = &quot;&quot;;<br>
+while (s != null) {<br>
+<span class=SpellE>System.out.println</span>(&quot;Enter your name&quot;);<br>
+s = <span class=SpellE>in.readLine</span>();<br>
+<span class=SpellE>System.out.println</span>(&quot;Hello &quot; + s);<br>
+<span class=SpellE>System.exit</span>(0);<br>
+}<br>
+catch (<span class=SpellE>IOException</span> ex) {<br>
+<span class=SpellE>ex.printStackTrace</span>();<br>
+}</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>D. try (<span class=SpellE>BufferedReader</span>
+in = new <span class=SpellE>BufferedReader</span>(System.in)) {<br>
+String s = &quot;&quot;;<br>
+while (s != null) {<br>
+<span class=SpellE>System.out.println</span>(&quot;Enter your name&quot;);<br>
+s = <span class=SpellE>in.readLine</span>();<br>
+<span class=SpellE>System.out.println</span>(&quot;Hello &quot; + s);<br>
+<span class=SpellE>System.exit</span>(0);<br>
+}<br>
+}catch (<span class=SpellE>IOException</span> ex) {<br>
+<span class=SpellE>ex.printStackTrace</span>();<br>
+}</span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>22.</span>在<span lang=EN-US> JDBC </span>应用程序中，<span
+class=SpellE><span lang=EN-US>DriverManager</span></span><span lang=EN-US> </span>类的用途是什么？</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>A<span style='background:yellow;mso-highlight:
+yellow'>. </span></span><span style='background:yellow;mso-highlight:yellow'>用于获取对<span
+lang=EN-US> Connection </span>对象的引用。</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>B. </span>用于获取对<span lang=EN-US> Statement </span>对象的引用。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. </span>用于获取对<span lang=EN-US> <span
+class=SpellE>ResultSet</span> </span>对象的引用。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>D. </span>用于执行查询。</p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>23.</span><span class=GramE>请确定</span>不属于<span
+lang=EN-US> Matcher </span>类的方法。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US>A. &nbsp;<span
+style='background:yellow;mso-highlight:yellow'>static</span></span></span><span
+lang=EN-US style='background:yellow;mso-highlight:yellow'> <span class=SpellE>boolean</span>
+matches(String <span class=SpellE>regex,CharSequence</span> input)</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>B. &nbsp;Matcher <span class=SpellE><span
+class=GramE>appendReplacement</span></span><span class=GramE>(</span><span
+class=SpellE>StringBuffer</span> <span class=SpellE>sb,String</span>
+replacement)</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. &nbsp;<span class=SpellE>StringBuffer</span>
+<span class=SpellE><span class=GramE>appendTail</span></span><span class=GramE>(</span><span
+class=SpellE>StringBuffer</span> <span class=SpellE>sb</span>)</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US>D. &nbsp;<span
+class=SpellE>int</span></span></span><span lang=EN-US> start(<span
+class=SpellE>int</span> group)</span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>24.Alia </span>是一个<span lang=EN-US> Java </span>开发人员，分配的任务是创建雇员姓名列表。在创建列表时，她需要确保该列表<span
+style='background:yellow;mso-highlight:yellow'>不包含重复元素</span>。此外，她还要确保列表应能够<span
+style='background:yellow;mso-highlight:yellow'>排序</span>。<span lang=EN-US>Alia </span>应使用以下哪个类执行上述任务？</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>A. &nbsp;<span class=SpellE><span
+style='background:yellow;mso-highlight:yellow'>TreeSet</span></span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>B. &nbsp;<span class=SpellE>HashSet</span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. &nbsp;<span class=SpellE>ArrayDeque</span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>D. &nbsp;<span class=SpellE>LinkedList</span></span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>25.</span>请思考以下语句：<span lang=EN-US><br>
+1.CallableStatement </span>接口包含多种使您能够调用数据库存储过程的方法。<span lang=EN-US><br>
+2.</span>在<span lang=EN-US> JDBC </span>中处理批量更新时，需要使用<span lang=EN-US> <span
+class=SpellE>setAutoCommit</span>(false) </span>方法禁用自动提交模式。<span lang=EN-US><br>
+3.CallableStatement </span>接口派生自<span lang=EN-US> <span class=SpellE>PreparedStatement</span>
+</span>接口。<span lang=EN-US><br>
+4.PreparedStatement </span>对象允许将运行时参数传递到<span lang=EN-US> SQL </span>语句以查询和修改表中的数据。<span
+lang=EN-US><br>
+</span>以上哪个语句正确？</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US>A. &nbsp;</span>语句</span><span
+lang=EN-US> 1</span>、<span lang=EN-US>2 </span>和<span lang=EN-US> 4 </span>正确。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US>B. &nbsp;</span>语句</span><span
+lang=EN-US> 1 </span>和<span lang=EN-US> 3 </span>正确。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US style='background:yellow;
+mso-highlight:yellow'>C. &nbsp;</span><span style='background:yellow;
+mso-highlight:yellow'>所有语句都正确</span></span><span style='background:yellow;
+mso-highlight:yellow'>。</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US>D. &nbsp;</span>语句</span><span
+lang=EN-US> 1</span>、<span lang=EN-US>2 </span>和<span lang=EN-US> 3 </span>正确。</p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>26.</span>以下哪种类型转换允许从一种数据类型<span
+style='background:aqua;mso-highlight:aqua'>自动转换为</span>另一种数据类型？</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US>A. &nbsp;</span>向上转型</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US>B. &nbsp;</span>向下转型</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US style='background:yellow;
+mso-highlight:yellow'>C. &nbsp;</span><span style='background:yellow;
+mso-highlight:yellow'>隐式转换</span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US>D. &nbsp;</span>显式转换</span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>27.</span>以下哪个正则表达式将<span style='background:
+yellow;mso-highlight:yellow'>仅</span>匹配单词“<span lang=EN-US>bat</span>”、“<span
+lang=EN-US>cat</span>”或“<span lang=EN-US>rat</span>”？</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US>A. &nbsp;[</span></span><span
+lang=EN-US>b-r]at</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US style='background:yellow;
+mso-highlight:yellow'>B. &nbsp;[</span></span><span class=SpellE><span
+lang=EN-US style='background:yellow;mso-highlight:yellow'>bcr</span></span><span
+lang=EN-US style='background:yellow;mso-highlight:yellow'>]at</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US>C. &nbsp;[</span></span><span
+lang=EN-US>b-c-r][at]</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US>D. &nbsp;[</span></span><span
+class=SpellE><span lang=EN-US>bcr</span></span><span lang=EN-US>][at]</span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>28.</span>以下哪个构造用于创建泛型类或方法？</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US style='background:yellow;
+mso-highlight:yellow'>A. &nbsp;&lt;</span></span><span lang=EN-US
+style='background:yellow;mso-highlight:yellow'> &gt;</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US>B. &nbsp;{</span></span><span
+lang=EN-US> }</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US>C. &nbsp;[</span></span><span
+lang=EN-US> ]</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US>D. &nbsp;(</span></span><span
+lang=EN-US> )</span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>29.</span>预测以下代码的输出：<span lang=EN-US><br>
+import <span class=SpellE>java.util</span>.*;<br>
+public class Demo {<br>
+public static void main(String <span class=SpellE>args</span>[]){<br>
+<span class=SpellE>ArrayDeque</span>&lt;String&gt; <span class=SpellE>obj</span>
+= new <span class=SpellE>ArrayDeque</span>&lt;String&gt;();<br>
+<span class=SpellE>obj.add</span>(&quot;Car&quot;);<br>
+<span class=SpellE>obj.add</span>(new String(&quot;Bus&quot;));<br>
+<span class=SpellE>obj.add</span>(&quot;Car&quot;);<br>
+<span class=SpellE>System.out.println</span>(<span class=SpellE>obj</span>);<br>
+}<br>
+}</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US style='background:yellow;mso-highlight:
+yellow'>A. [Car, Bus, Car]</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US>B. &nbsp;</span>它将生成编译时错误</span>。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US>C. &nbsp;</span>它将生成运行时错误</span>。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><span lang=EN-US>D. &nbsp;</span>它将生成以下输出</span>：<span
+lang=EN-US><br>
+[Car, Bus]</span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>30.Sam </span>编写了将整数值<span lang=EN-US> 5 </span>更新为<span
+lang=EN-US> 9 </span>的以下代码段：原子变量（并发时候用的）</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=SpellE><span lang=EN-US>AtomicInteger</span></span><span
+lang=EN-US> <span class=SpellE>ai</span> = new <span class=SpellE><span
+class=GramE>AtomicInteger</span></span><span class=GramE>(</span>5);// Line 1<br>
+if (<span class=SpellE>ai.compareAndSet</span>(5, 9)) {// Line 2<br>
+<span class=SpellE>System.out.println</span>(&quot;Updated value:&quot;+<span
+class=SpellE>ai</span>);// Line 3<br>
+}</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal>但是，上述代码段在执行时未显示任何输出。<span lang=EN-US>Sam </span>应使用以下哪个选项改正上述代码段以产生输出“<span
+lang=EN-US>Updated value:9</span>”？</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>A. </span>更改第<span lang=EN-US> 2 </span>行中的语句，如下所示：<span
+lang=EN-US>if (<span class=SpellE><span class=GramE>ai.set</span></span><span
+class=GramE>(</span>5, 9)) {</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>B. </span>更改第<span lang=EN-US> 2 </span>行中的语句，如下所示：<span
+lang=EN-US>if (<span class=SpellE><span class=GramE>ai.compareAndSet</span></span><span
+class=GramE>(</span>9, 5)) {</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. </span>更改第<span lang=EN-US> 1 </span>行中的语句，如下所示：<span
+class=SpellE><span lang=EN-US>AtomicInteger</span></span><span lang=EN-US> <span
+class=SpellE>ai</span> = new <span class=SpellE><span class=GramE>AtomicInteger</span></span><span
+class=GramE>(</span>9);</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US style='background:yellow;mso-highlight:
+yellow'>D. </span><span style='background:yellow;mso-highlight:yellow'>更改第<span
+lang=EN-US> 1 </span>行中的语句，如下所示：<span class=SpellE><span lang=EN-US>AtomicInteger</span></span><span
+lang=EN-US> <span class=SpellE>ai</span> = new <span class=SpellE><span
+class=GramE>AtomicInteger</span></span><span class=GramE>(</span>5);</span></span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>31.John </span>是<span lang=EN-US> Red
+Sky Systems </span>的数据库管理员。 他已在自己的主目录中创建了名为<span lang=EN-US> <span
+class=SpellE>db_backup</span> </span>的目录。<span lang=EN-US> <span class=SpellE>db_backup</span>
+</span>目录包含其中含有组织敏感信息的文件的备份。 因此，他希望其他用户都不能访问<span lang=EN-US> <span
+class=SpellE>db_backup</span> </span>目录中包含的文件。<span lang=EN-US> John </span>应该如何执行此任务？<span
+lang=EN-US><o:p></o:p></span></s></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>A. John </span>应使用<span lang=EN-US> <span
+class=SpellE>chmod</span> 722 ~/<span class=SpellE>db_backup</span>/* </span>命令。<span
+lang=EN-US><o:p></o:p></span></s></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>B. John </span>应使用<span lang=EN-US> <span
+class=SpellE>chmod</span> 766 ~/<span class=SpellE>db_backup</span>/* </span>命令。<span
+lang=EN-US><o:p></o:p></span></s></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>C. John </span>应使用<span lang=EN-US> <span
+class=SpellE>chmod</span> 777 ~/<span class=SpellE>db_backup</span>/* </span>命令。<span
+lang=EN-US><o:p></o:p></span></s></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>D. John </span>应使用<span lang=EN-US> <span
+class=SpellE>chmod</span> 700 ~/<span class=SpellE>db_backup</span>/* </span>命令。<span
+lang=EN-US><o:p></o:p></span></s></p>
+
+</div>
+
+<p class=MsoNormal><s><span lang=EN-US><o:p><span style='text-decoration:none'>&nbsp;</span></o:p></span></s></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>32.</span>以下命令的输出是什么？<span lang=EN-US><o:p></o:p></span></s></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span class=GramE><s><span lang=EN-US>find .</span></s></span><s><span
+lang=EN-US> </span>–<span class=SpellE><span lang=EN-US>mtime</span></span><span
+lang=EN-US> +2 -print<o:p></o:p></span></s></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>A. </span>该命令将显示超过两天之前修改的文件列表。<span
+lang=EN-US><o:p></o:p></span></s></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>B. </span>该命令将显示过去两天内修改的文件列表。<span
+lang=EN-US><o:p></o:p></span></s></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>C. </span>该命令将显示当前日期之前的第二天修改的文件列表。<span
+lang=EN-US><o:p></o:p></span></s></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>D. </span>该命令将生成错误。<span lang=EN-US><o:p></o:p></span></s></p>
+
+</div>
+
+<p class=MsoNormal><s><span lang=EN-US><o:p><span style='text-decoration:none'>&nbsp;</span></o:p></span></s></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>33.</span>考虑以下语句：<span lang=EN-US><o:p></o:p></span></s></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s>语句<span lang=EN-US> A</span>：<span lang=EN-US> write </span>实用程序用于将文本写入另一个用户的终端。<span
+lang=EN-US> <br>
+</span>语句<span lang=EN-US> B</span>：<span lang=EN-US> wall </span>实用程序用于将消息仅发送至一个用户。<span
+lang=EN-US><o:p></o:p></span></s></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s>对于上述语句，以下哪个选项正确？<span lang=EN-US><o:p></o:p></span></s></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>A. </span>语句<span lang=EN-US> A </span>正确，语句<span
+lang=EN-US> B </span>错误。<span lang=EN-US><o:p></o:p></span></s></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>B. </span>语句<span lang=EN-US> A </span>错误，语句<span
+lang=EN-US> B </span>正确。<span lang=EN-US><o:p></o:p></span></s></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>C. </span>语句<span lang=EN-US> A </span>和语句<span
+lang=EN-US> B </span>都正确。<span lang=EN-US><o:p></o:p></span></s></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>D. </span>语句<span lang=EN-US> A </span>和语句<span
+lang=EN-US> B </span>都错误。<span lang=EN-US><o:p></o:p></span></s></p>
+
+</div>
+
+<p class=MsoNormal><s><span lang=EN-US><o:p><span style='text-decoration:none'>&nbsp;</span></o:p></span></s></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>34.</span>以下<span lang=EN-US> shell </span>脚本的输出将是什么？<span
+lang=EN-US><o:p></o:p></span></s></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>a=100<br>
+while test ${a} -<span class=SpellE><span class=GramE>ge</span></span> 2<br>
+do<br>
+a=`expr ${a} / 2`<br>
+echo &quot;${a}&quot;<br>
+a=`expr ${a} - 1`<br>
+done<o:p></o:p></span></s></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>A. </span>在执行时该<span lang=EN-US> shell </span>脚本将生成一个错误。<span
+lang=EN-US><o:p></o:p></span></s></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>B. 50<br>
+24<br>
+11<br>
+5<br>
+2<o:p></o:p></span></s></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>C. 50<br>
+24<br>
+11<br>
+5<o:p></o:p></span></s></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>D. 100<br>
+50<br>
+24<br>
+11<br>
+5<o:p></o:p></span></s></p>
+
+</div>
+
+<p class=MsoNormal><s><span lang=EN-US><o:p><span style='text-decoration:none'>&nbsp;</span></o:p></span></s></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>35.Alice </span>已创建了文本文件<span
+lang=EN-US> ozone</span>，它描述了臭氧的消耗<span lang=EN-US> (ozone depletion)</span>。 之后，<span
+lang=EN-US>Alice </span>意识到她将单词<span lang=EN-US> depletion </span>误拼为<span
+lang=EN-US> <span class=SpellE>deplation</span></span>。 要在<span lang=EN-US>
+ozone </span>文件中更正单词<span lang=EN-US> <span class=SpellE>deplation</span></span>，她首先决定将更正后的数据存储在临时文件中，然后使用临时文件更新现有<span
+lang=EN-US> ozone </span>文件。 以下哪个命令将使她能够在<span lang=EN-US> ozone </span>文件中更正单词<span
+lang=EN-US> <span class=SpellE>deplation</span></span>？<span lang=EN-US><o:p></o:p></span></s></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>A. cat ozone | <span class=SpellE><span
+class=GramE>sed</span></span><span class=GramE> 's</span>/<span class=SpellE>deplation</span>/depletion/g'
+&gt; ozone<o:p></o:p></span></s></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>B. (cat ozone | <span class=SpellE><span
+class=GramE>sed</span></span><span class=GramE> 's</span>/<span class=SpellE>deplation</span>/depletion/g')
+&gt; ozone<o:p></o:p></span></s></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>C. <span class=SpellE><span class=GramE>sed</span></span><span
+class=GramE> 's</span>/<span class=SpellE>deplation</span>/depletion/g' ozone
+&gt; <span class=SpellE>nozone</span><br>
+cat <span class=SpellE>nozone</span> &gt; ozone<o:p></o:p></span></s></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><s><span lang=EN-US>D. <span class=SpellE><span class=GramE>sed</span></span><span
+class=GramE> 's</span>/<span class=SpellE>deplation</span>/depletion/g' ozone
+&gt; <span class=SpellE>nozone</span><br>
+cat <span class=SpellE>nozone</span> &gt;&gt; ozone<o:p></o:p></span></s></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>36.</span>您需要直接从<span lang=EN-US> Workbench
+</span>执行一个脚本文件。以下哪个<span lang=EN-US> Workbench </span>组件可用于实现此任务？</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US style='background:yellow;mso-highlight:
+yellow'>A. SQL </span><span style='background:yellow;mso-highlight:yellow'>编辑器</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>B. EER </span>编辑器</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. </span>模型编辑器</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>D. </span>对象浏览器</p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>37.</span>您想要从<span lang=EN-US> Employee </span>表检索属于特定部门的所有雇员的<span
+style='background:yellow;mso-highlight:yellow'>薪水总额</span>。可以在<span lang=EN-US>
+SELECT </span>语句中使用哪个函数实现期望的结果？</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>A. Summation</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US style='background:yellow;mso-highlight:
+yellow'>B. Sum</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. Add</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>D. Addition</span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>38.Harry </span>是<span lang=EN-US> <span
+class=SpellE>InfoIT</span> Ltd. </span>的数据库开发人员，他希望创建一个表来存储公司员工的详细信息。要存储的详细信息包括员工姓名、<span
+lang=EN-US>ID</span>、薪水和照片。为存储员工的详细信息，<span lang=EN-US>Harry </span>决定创建名为<span
+lang=EN-US> Employee </span>的表。创建该表的定义时，他无法决定用于存储员工<span style='background:
+yellow;mso-highlight:yellow'>照片</span>的数据类型。帮助<span lang=EN-US> Harry </span>确定正确的数据类型。</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US style='background:yellow;mso-highlight:
+yellow'>A. BLOB</span><span lang=EN-US> </span>大二进制</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>B. TEXT</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. VARCHAR</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>D. CHAR</span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>39.Robert </span>正在使用<span lang=EN-US> <span
+class=SpellE>mysqlimport</span> </span>实用程序将雇员信息从一个文件中导入到<span lang=EN-US>
+Employee </span>表的 <span class=SpellE><span lang=EN-US style='background:red;
+mso-highlight:red'>Employee_ID</span></span><span lang=EN-US style='background:
+red;mso-highlight:red'> </span><span style='background:red;mso-highlight:red'>和<span
+lang=EN-US> name </span>字段</span>。在<span lang=EN-US> <span class=SpellE>mysqlimport</span>
+</span>命令中可指定以下哪个选项来指定上述条件？</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>A. --col=<span class=SpellE>Employee_ID</span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>B. col=<span class=SpellE>Employee_ID</span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. columns=<span class=SpellE>Employee_ID</span></span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>D. <span style='background:yellow;
+mso-highlight:yellow'>--columns=<span class=SpellE>Employee_ID</span></span></span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>40.</span>您希望实现一项编程逻辑以确保无法对<span
+style='background:yellow;mso-highlight:yellow'>数据库对象</span><span class=GramE>作出</span>永久性更改。为此您将创建以下哪个数据库对象？</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US style='background:yellow;mso-highlight:
+yellow'>A. </span><span style='background:yellow;mso-highlight:yellow'>触发器</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>B. </span>索引</p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>C. UDF</span></p>
+
+</div>
+
+<div style='margin-left:22.5pt;margin-top:5.0pt;margin-right:22.5pt;margin-bottom:
+5.0pt'>
+
+<p class=MsoNormal><span lang=EN-US>D. </span>视图</p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
